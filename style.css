@@ -1,9 +1,23 @@
+/* CSS Style Document */
+/* Header with an image and color */
 header {
     text-align: center;
     background: url('https://i.imgur.com/4zeFfqd.jpg');
     background-size: cover;
     color: Tomato;
+    margin-top:0%;
+    width:100%;
   }
+  /* Body Styling */
+  body {
+    background-color: rgb(201, 207, 212);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  /* Unorder and Ordered List Styles */
+  ul, ol {
+    color:rgb(4, 4, 192);
+  }
+/* The following are heading styles for h1, h2 and h3 */
   h1 {
     font-size: 70px;
     color: black;
@@ -13,6 +27,7 @@ header {
     color:firebrick;
   }
   h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:black;
   }
   img {
@@ -20,34 +35,40 @@ header {
     border: 7px solid black;
     border-radius: 50%;
   }
+  /* Styling the main content of the page */
   article {
     max-width: 500px;
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;
   }
+  /* Styling the links based on their states */
 a {
-  font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
 }
-footer {
-  text-align: center;
-  background-color:white;
-  color:firebrick;
-
-}
-
-a:link    { color: blue;  }
-a:visited { color: red;   }
-a:hover   { color: green; }
-a:active  { color: pink;  }
-
+a:link    { color: rgb(8, 8, 105);  }
+a:visited { color: rgb(196, 2, 2);   }
+a:hover   { color: rgb(51, 39, 160); }
+a:active  { color: rgb(16, 126, 62);  }
+/* Diamond breaks in between sections */
 hr {
   width: 15px;
   height: 15px;
   border: none;
   background: #000;
   color: #000;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   transform: rotate(45deg);
+  /*styling for the footer*/
+}
+footer {
+  width: 100%;
+  height: 12%;
+  background-color: rgba(160, 32, 28, 0.897);
+  display: flex;
+  align-items: center;
+  background-size: 100% 100%;
+  justify-content: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
